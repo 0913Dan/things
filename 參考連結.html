@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .responsive-img {
+            /* 核心關鍵代碼 */
+            max-width: 100%;  /* 圖片寬度不超過父容器 */
+            height: auto;     /* 高度依比例縮放 */
+            display: block;   /* 去除圖片底部縫隙 */
+            margin: 20px auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+ <!-- 請將 src 替換成你的圖片路徑 -->
+        <img src="search.gif" alt="範例圖片" class="responsive-img">
+
+</body>
+</html>
